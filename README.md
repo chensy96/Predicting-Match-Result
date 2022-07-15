@@ -53,7 +53,7 @@ HT = Home Stadium Attendance
 
 Considered the fact that the dataset seemed to have more than necessary number of features, which indicates potential dependent features, we ran correlation test in between all the features except the target feature and generated the plot below:
 
-![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.001.jpeg)
+![](/images/Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.001.jpeg)
 
 As we can observe from the plot, HS with HST, and AS with AST have strong correlation, which is not a surprising result because the number of shots on target is depend on the total shots. There are many other pairs of correlated features such as FTHG with HST, FTAG with AST, HS with HC, AS with AC, HST with HC etc. Some of them are not obviously depend on each other, so it is very hard to tell whether those features are meaningful or should be eliminated. Therefore, we
 
