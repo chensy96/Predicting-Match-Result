@@ -72,7 +72,7 @@ The reason for subtracting away team features from home team features is that we
 
 The new correlation plot of non-target features is attached below:
 
-![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.002.png)
+![](/images/Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.002.png)
 
 From the new plot, it is easy to conclude that there is no more obvious correlation between any non-target features. Accompanied by the fact that there is no missing value or clear error in the dataset, we can carry on to the next step of the project using the current features.
 
@@ -240,7 +240,7 @@ Total Number of Instances              107
 
 The prediction was based on three classes: home team win, away team win and ![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.003.png)draw. Therefore, correct rates of around 50% did not mean the models were meaningless. 
 
-![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.004.jpeg)
+![](/images/Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.004.jpeg)
 
 However, One Rule was the best classifier in this case, and it only considers the feature of STRdf (shot accuracy difference), so we had to run the classifier test with some features removed to get a better result. The target feature was also changed from three classes into two classes: the home team wins and not win.
 
@@ -354,7 +354,7 @@ a  b   <-- classified as
 
 The best classifier in this case is Naïve Bayes. The model predicts 68.2243% correctly and 31.7757 % wrong.
 
-![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.005.jpeg) ![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.006.png)
+![](/images/Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.005.jpeg) ![](Aspose.Words.322575c1-49ff-4591-8ad6-c2562104c8cc.006.png)
 
 **Conclusion**
 
